@@ -5,6 +5,8 @@
   height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -19,7 +21,7 @@
 .header__description {
   margin: 28px 0 0;
   max-width: 683px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -31,6 +33,7 @@
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   color: #3f96f3;
+  font-weight: 400;
 }
 .header__image {
   position: absolute;
@@ -38,6 +41,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -45,7 +49,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
