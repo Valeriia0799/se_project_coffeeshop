@@ -5,8 +5,7 @@ It was created using **HTML** and **CSS** based on a design brief, with a focus 
 
 ## Demo
 
-- Live site: [GitHub Pages](https://Valeriia0799.github.io/se_project_coffeeshop/)  
-- Repository: [GitHub Repo](https://github.com/Valeriia0799/se_project_coffeeshop)
+- Repository: [GitHub Repo](https://github.com/Valeriia0799/se_project_coffeeshop.git)
 
 ## Features
 
